@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>İşaretlenmişler</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+<body>
+     <div class="row">
+          <div class="col-sm-4">
+
+              {% for true_text in all_true_texts %}
+
+
+              <a href="http://127.0.0.1:8000/classify/{{ true_text.id }}"> {{ true_text.filename }} </a>
+
+              {% endfor %}
+
+          </div>
+
+          <div class="col-sm-4">
+              {% for false_text in all_false_texts %}
+
+              <a href="http://127.0.0.1:8000/classify/{{ false_text.id }}"> {{ false_text.filename }} </a>
+
+              {% endfor %}
+
+
+          </div>
+     </div>
+
+</body>
+</html>

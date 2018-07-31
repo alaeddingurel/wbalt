@@ -1,0 +1,19 @@
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+
+<u1>
+    {% if user.is_authenticated %}
+
+        {{ all_texts }}
+
+
+    <input type="submit" class="btn btn-success center-block" value="Protest" onclick="location.href = 'http://localhost:8000/classify/{{ all_texts.id }}/changeprotest'" name="protest-btn">
+
+    <input type="submit" class="btn btn-info center-block" value="Non-Protest" onclick="location.href = 'http://localhost:8000/classify/{{ all_texts.id }}/changenonprotest'"name="non-protest-btn">
+
+
+
+    {% endif %}
+</u1>

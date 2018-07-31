@@ -1,0 +1,11 @@
+<u1>
+
+    {% if user.is_authenticated %}
+
+        {% for text in all_texts %}
+            <li><a href="/classify/{{ text.id }}">  {{ text.filename }} </a> </li>
+        {% endfor %}
+
+    {% endif %}
+</u1>
+
