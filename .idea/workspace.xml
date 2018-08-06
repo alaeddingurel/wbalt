@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8ab6435-f23c-40a3-9e89-4d11601535bd" name="Default" comment="" />
+    <list default="true" id="e8ab6435-f23c-40a3-9e89-4d11601535bd" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.ebextensions/01_packages.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/annoAPI/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/annoAPI/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/annoAPI/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/annoAPI/urls.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,32 +17,34 @@
     <session id="1883455674">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.12" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="1811" />
-          <entry key="py" value="3570" />
+          <entry key="py" value="3589" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="1811" />
-          <entry key="Python" value="3570" />
+          <entry key="Python" value="3589" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="12" />
-          <entry key="py" value="4" />
+          <entry key="py" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="12" />
-          <entry key="Python" value="4" />
+          <entry key="Python" value="6" />
         </counts>
       </usages-collector>
     </session>
@@ -45,38 +52,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classify/urls.py">
+        <entry file="file://$PROJECT_DIR$/annoAPI/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="69" lean-forward="true" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
-              <folding>
-                <element signature="e#632#651#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/classify/views.py">
+        <entry file="file://$PROJECT_DIR$/annoAPI/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="61" column="27" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#57#0" expanded="true" />
-                <marker date="1533034579050" expanded="true" signature="349:351" ph="..." />
-                <marker date="1533034579050" expanded="true" signature="1480:3025" ph="..." />
-                <marker date="1533034579050" expanded="true" signature="2258:2606" ph="..." />
-                <marker date="1533034579050" expanded="true" signature="2963:3025" ph="..." />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classify/templates/classify/changeprotest.html">
+        <entry file="file://$PROJECT_DIR$/classify/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="75">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#0#57#0" expanded="true" />
+                <marker date="1533281356651" expanded="true" signature="349:351" ph="..." />
+                <marker date="1533281356651" expanded="true" signature="1480:3025" ph="..." />
+                <marker date="1533281356651" expanded="true" signature="2258:2606" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -159,6 +162,9 @@
       <find>password</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -166,9 +172,7 @@
         <option value="$PROJECT_DIR$/classify/admin.py" />
         <option value="$PROJECT_DIR$/classify/forms.py" />
         <option value="$PROJECT_DIR$/classify/templates/classify/registration_form.html" />
-        <option value="$PROJECT_DIR$/annoAPI/urls.py" />
         <option value="$PROJECT_DIR$/classify/templates/classify/login.html" />
-        <option value="$PROJECT_DIR$/annoAPI/settings.py" />
         <option value="$PROJECT_DIR$/getData.py" />
         <option value="$PROJECT_DIR$/rawque.py" />
         <option value="$PROJECT_DIR$/classify/rawque.py" />
@@ -186,20 +190,24 @@
         <option value="$PROJECT_DIR$/classify/templates/classify/detail.html" />
         <option value="$PROJECT_DIR$/classify/urls.py" />
         <option value="$PROJECT_DIR$/classify/views.py" />
+        <option value="$PROJECT_DIR$/annoAPI/urls.py" />
+        <option value="$PROJECT_DIR$/annoAPI/settings.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="648" />
     <option name="y" value="-4" />
     <option name="width" value="647" />
     <option name="height" value="736" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,7 +242,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -377,7 +384,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+    <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12441315" />
@@ -392,7 +399,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32972136" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32972136" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -462,13 +469,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/annoAPI/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="68" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classify/templates/classify/rawque.py" />
     <entry file="file://$PROJECT_DIR$/rawque.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -478,13 +478,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classify/rawque.py" />
-    <entry file="file://$PROJECT_DIR$/annoAPI/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="44" column="52" lean-forward="true" selection-start-line="44" selection-start-column="52" selection-end-line="48" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dictry.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -513,58 +506,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classify/templates/classify/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="82" selection-start-line="5" selection-start-column="77" selection-end-line="5" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classify/templates/classify/agreed.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classify/templates/classify/filtered.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="141" selection-start-line="11" selection-start-column="135" selection-end-line="11" selection-end-column="141" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classify/templates/classify/nonagreed.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classify/templates/classify/nonprotest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classify/templates/classify/protest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/classify/templates/classify/nonprotest.html" />
+    <entry file="file://$PROJECT_DIR$/classify/templates/classify/protest.html" />
     <entry file="file://$PROJECT_DIR$/classify/templates/classify/changeprotest.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classify/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#632#651#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classify/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+            <marker date="1533281356651" expanded="true" signature="349:351" ph="..." />
+            <marker date="1533281356651" expanded="true" signature="1480:3025" ph="..." />
+            <marker date="1533281356651" expanded="true" signature="2258:2606" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -582,6 +555,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/classify/templates/classify/nonagreed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classify/templates/classify/agreed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/classify/templates/classify/detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -589,27 +576,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classify/urls.py">
+    <entry file="file://$PROJECT_DIR$/classify/templates/classify/filtered.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="69" lean-forward="true" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
-          <folding>
-            <element signature="e#632#651#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="165">
+          <caret line="11" column="141" selection-start-line="11" selection-start-column="135" selection-end-line="11" selection-end-column="141" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classify/views.py">
+    <entry file="file://$PROJECT_DIR$/classify/templates/classify/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="61" column="27" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-            <marker date="1533034579050" expanded="true" signature="349:351" ph="..." />
-            <marker date="1533034579050" expanded="true" signature="1480:3025" ph="..." />
-            <marker date="1533034579050" expanded="true" signature="2258:2606" ph="..." />
-            <marker date="1533034579050" expanded="true" signature="2963:3025" ph="..." />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="5" column="82" selection-start-line="5" selection-start-column="77" selection-end-line="5" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annoAPI/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annoAPI/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
         </state>
       </provider>
     </entry>
