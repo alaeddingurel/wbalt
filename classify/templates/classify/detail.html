@@ -1,12 +1,22 @@
+{% extends 'classify/base.html' %}
+
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 </head>
 
+<body>
+{% block content %}
 <u1>
+
     {% if user.is_authenticated %}
 
         {{ all_texts }}
+        {% if is_protest %}
+            <h1>PROTEST</h1>
+        {% else %}
+            <h1>NON-PROTEST</h1>
+        {% endif %}
 
 
     <input type="submit" class="btn btn-success center-block" value="Protest" onclick="location.href = 'http://localhost:8000/classify/{{ all_texts.id }}/changeprotest'" name="protest-btn">
@@ -17,3 +27,7 @@
 
     {% endif %}
 </u1>
+
+{% endblock %}
+
+</body>

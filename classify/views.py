@@ -17,8 +17,20 @@ def index(request):
     return render(request, 'classify/index.html', context)
 
 def detail(request, text_id):
+    if request.user.is_authenticated:
+        username = request.user.username
     all_texts = TextFile.objects.get(pk=text_id)
-    context = {'all_texts': all_texts}
+    text_json = TextFile.objects.get(pk=text_id).info
+    is_protest = None
+    if text_json[username] == True:
+        is_protest = True
+    elif text_json[username] == False:
+        is_protest = False
+    else:
+        is_protest = None
+
+    context = {'all_texts': all_texts,
+               'is_protest': is_protest}
     return render(request, 'classify/detail.html', context)
 
 def filtered(request):
@@ -75,10 +87,15 @@ def tagged(request):
     if request.user.is_authenticated:
         username = request.user.username
     all_true_texts = TextFile.objects.filter(info__contains={username: True})
-    all_false_texts = TextFile.objects.filter(info__contains={username: False})
-    context = {'all_true_texts': all_true_texts,
-               'all_false_texts': all_false_texts}
+    context = {'all_true_texts': all_true_texts}
     return render(request, 'classify/tagged.html', context)
+
+def nplabel(request):
+    if request.user.is_authenticated:
+        username = request.user.username
+    all_false_texts = TextFile.objects.filter(info__contains={username: False})
+    context = {'all_false_texts': all_false_texts}
+    return render(request, 'classify/nplabel.html', context)
 
 class UserFormView(View):
     form_class = UserForm

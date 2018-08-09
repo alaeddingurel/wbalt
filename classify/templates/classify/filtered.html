@@ -1,13 +1,16 @@
+{% extends 'classify/base.html' %}
+
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 </head>
 
+<body>
+{% block content %}
 <u1>
-
     {{ all_new_texts }}
-
 </u1>
+
 
     <input type="submit" class="btn btn-success center-block" value="Protest" onclick="location.href = 'http://localhost:8000/classify/agreed/'" name="protest-btn">
 
@@ -15,3 +18,5 @@
 
 
 <a href='http://localhost:8000/classify/tagged'>İşaretlenmişleri Göster</a>
+{% endblock %}
+</body>

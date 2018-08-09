@@ -1,3 +1,5 @@
+{% extends 'classify/base.html' %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,28 +9,27 @@
 
 </head>
 <body>
-     <div class="row">
-          <div class="col-sm-4">
-
-              {% for true_text in all_true_texts %}
+{% block content %}
 
 
-              <a href="http://127.0.0.1:8000/classify/{{ true_text.id }}"> {{ true_text.filename }} </a>
+                <div class="container">
 
-              {% endfor %}
+                      <table class="table table-hover">
+                        <thead>
+                          <tr>
+                            <th>News which are Protest</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                        {% for true_text in all_true_texts %}
+                          <tr>
+                            <td><a href="http://127.0.0.1:8000/classify/{{ true_text.id }}"> {{ true_text.filename }} </a></td>
+                          </tr>
+                        {% endfor %}
+                        </tbody>
+                      </table>
+                    </div>
 
-          </div>
-
-          <div class="col-sm-4">
-              {% for false_text in all_false_texts %}
-
-              <a href="http://127.0.0.1:8000/classify/{{ false_text.id }}"> {{ false_text.filename }} </a>
-
-              {% endfor %}
-
-
-          </div>
-     </div>
-
+{% endblock %}
 </body>
 </html>
