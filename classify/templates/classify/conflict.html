@@ -1,0 +1,25 @@
+{% extends 'classify/base.html' %}
+
+
+{% block content %}
+
+        <div class="container">
+
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th>Conflicts</th>
+              </tr>
+            </thead>
+            <tbody>
+            {% for conflict in all_texts %}
+              <tr>
+                <td><a href="http://127.0.0.1:8000/classify/{{conflict.id}}"> {{conflict.filename}} </a></td>
+              </tr>
+            {% endfor %}
+            </tbody>
+          </table>
+        </div>
+
+
+{% endblock %}

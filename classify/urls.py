@@ -28,6 +28,7 @@ urlpatterns = [
     path('tagged/', views.tagged, name='tagged'),
     path('<int:text_id>/changeprotest/', views.protest, name='changeprotest'),
     path('<int:text_id>/changenonprotest/', views.nonprotest, name='changenonprotest'),
-    path('nplabel/', views.nplabel, name='nplabel')
+    path('nplabel/', views.nplabel, name='nplabel'),
+    path('conflict/', views.conflict, name='conflict')
 
 ]

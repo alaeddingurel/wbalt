@@ -9,7 +9,7 @@ import django.contrib.postgres.fields.jsonb
 # Create your models here.
 
 class TextFile(models.Model):
-    data = {'user': False, 'newuser': False}
+    data = {'baglan': None, 'balacan': None, 'cagri': None}
 
     filename = models.CharField(default="", max_length=1000)
     text = models.TextField()

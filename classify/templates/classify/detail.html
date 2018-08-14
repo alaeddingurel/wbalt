@@ -12,6 +12,8 @@
     {% if user.is_authenticated %}
 
         {{ all_texts }}
+
+        <h3><a href = "{{url_link}}"> {{url_link}}</a> </h3>
         {% if is_protest %}
             <h1>PROTEST</h1>
         {% else %}
