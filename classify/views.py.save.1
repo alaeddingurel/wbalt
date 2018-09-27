@@ -1,3 +1,4 @@
+ls
 from django.contrib.auth.decorators import login_required
 from django.http import HttpResponse
 from .models import TextFile
@@ -103,8 +104,8 @@ def nplabel(request):
 def conflict(request):
     username = request.user.username
     if username == 'cagri':
-        all_diff_texts = TextFile.objects.filter(info__contains={'baglan': False, 'balacan': True, 'cagri': None})
-        all_new_diff_texts = TextFile.objects.filter(info__contains={'baglan': True, 'balacan': False, 'cagri': None})
+        all_diff_texts = TextFile.objects.filter(info__contains={'cagri': None, 'baglan': False, 'balacan': True})
+        all_new_diff_texts = TextFile.objects.filter(info__contains={'cagri': None, 'baglan': True, 'balacan': False})
         all_texts = all_new_diff_texts | all_diff_texts
         context = {'all_texts': all_texts}
     return render(request, 'classify/conflict.html', context)

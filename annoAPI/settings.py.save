@@ -25,7 +25,7 @@ SECRET_KEY = '_5_#(wpk=_53mt7ax!j#f+ee3h_r7h#x**joiqz%*xb1&yg+r)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['54.201.191.234']
 
 
 # Application definition

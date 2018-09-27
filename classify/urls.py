@@ -17,6 +17,7 @@ Including another URLconf
 from . import views
 from django.contrib import admin
 from django.urls import path
+from django.contrib.auth import views as auth_views
 
 urlpatterns = [
     path('', views.index),
@@ -29,6 +30,8 @@ urlpatterns = [
     path('<int:text_id>/changeprotest/', views.protest, name='changeprotest'),
     path('<int:text_id>/changenonprotest/', views.nonprotest, name='changenonprotest'),
     path('nplabel/', views.nplabel, name='nplabel'),
-    path('conflict/', views.conflict, name='conflict')
+    path('conflict/', views.conflict, name='conflict'),
+    path('logout/', auth_views.LogoutView.as_view(), name='logout'),
+    path('abc/', views.nplabel, name='abc')
 
 ]
